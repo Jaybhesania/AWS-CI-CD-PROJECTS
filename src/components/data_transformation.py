@@ -92,6 +92,11 @@ class DataTransformation:
             train_arr=np.c_[input_feature_train_arr, np.array(target_feature_train_df)]
             test_arr=np.c_[input_feature_test_arr, np.array(target_feature_test_df)]
 
+            # print("Checking for NaN values in train set:", np.isnan(train_arr).sum())
+            # print("Checking for NaN values in test set:", np.isnan(test_arr).sum())
+            # print("Checking for Infinite values in train set:", np.isinf(train_arr).sum())
+            # print("Checking for Infinite values in test set:", np.isinf(test_arr).sum())
+
             logging.info("Saved Preprocessing Objects.")
 
             save_object(
