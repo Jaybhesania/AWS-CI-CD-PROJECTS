@@ -1,4 +1,4 @@
-# Student Performance Prediction with AWS Deployment
+# Student Performance Prediction with AWS Deployment 
 
 **A full-stack machine learning application that predicts student math scores based on demographics and test performance.**
 
